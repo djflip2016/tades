@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    max-width: 100%;
+    margin:0 auto;
+}
+
+.wrapper{
+    height: calc(100vh-89px);
+}
+
+/***** HEADER *****/
+
+/*HEADER BODY*/
+header{
+    border: 1px solid silver;
+    background: black;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+/***** NAVIGATION *****/
+
+#nav-holder{
+    border: 1px solid white;
+}
+
+#nav-content{
+    margin-left: -30px;
+    text-align: center;
+}
+
+#nav-content li{
+    margin: 0 8px;
+    border: 1px solid red;
+    text-align: center;
+    font-size: 1.2em;
+    display: inline-block;
+    color: white
+
+}
+
+a{
+    list-style-type: none;
+    color:white;
+    text-decoration: none;
+}
+
+
+
