@@ -141,7 +141,7 @@ a:hover{
 /** footer**/
 
 footer{
-    clear:right;
+    clear:both;
     margin-top: 20px;
     background-color: gray;
     width: 100%;
@@ -157,6 +157,10 @@ footer{
 		min-height: calc(100vh - 55px);
     }
 
+    .paint-text{
+        font-size: 1.4em;
+        line-height: 1.3em;
+    }
 
     
 
