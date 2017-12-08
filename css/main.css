@@ -81,29 +81,52 @@ a:hover{
 /** home page content**/
 
 .paint{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 2%;
-    width: 43%;
+    margin-right: 0;
+    width: 48%;
+    margin-bottom: 30px;
 }
 
 .paint-text{
     float: right;
-    font-size: 1.8em;
-    margin-right: 30px;
+    font-size: 1.6em;
+    margin-right: 3%;
+    line-height: 2.1em;
+    margin-top: 30px;
+
+}/* span container*/
+.span-holder{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width:96%;
+    margin-left: 2%;
+    padding: 10px;
+    text-align: center;
+}
+
+.slogan2{
+    letter-spacing: .2em;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Spectral SC', serif;
+    margin: 30px auto;
 }
 
 .orlando{
     float: right;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-right: 2%;
-    width: 43%;
+    width: 48%;
 }
 
 .orlando-text{
     float: left;
-    font-size: 1.8em;
-    margin-left: 30px;
-    margin-top: 20px;
+    font-size: 1.6em;
+    margin-left: 3%;
+    line-height: 2.1em;
+    margin-top: 50px;
 }
 
 
@@ -113,6 +136,10 @@ footer{
     clear:right;
     margin-top: 20px;
     background-color: gray;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    height:80px;
 }
 
 /******* MEDIA QUERY ********/
