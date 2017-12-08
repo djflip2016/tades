@@ -144,12 +144,7 @@ footer{
 
 /******* MEDIA QUERY ********/
 
-@media screen and (min-width: 320px){
-	.wrapper{
-		min-height: calc(100vh - 55px);
-	}
 
-}
 
 
 
