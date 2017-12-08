@@ -92,7 +92,7 @@ a:hover{
     float: right;
     font-size: 1.6em;
     margin-right: 3%;
-    line-height: 2.1em;
+    line-height: 1.5em;
     margin-top: 30px;
 
 }/* span container*/
@@ -125,7 +125,7 @@ a:hover{
     float: left;
     font-size: 1.6em;
     margin-left: 3%;
-    line-height: 2.1em;
+    line-height: 1.5em;
     margin-top: 50px;
 }
 
