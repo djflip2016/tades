@@ -124,7 +124,7 @@ a:hover{
 
 .orlando{
     float: right;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-right: 2%;
     width: 48%;
 }
@@ -152,17 +152,11 @@ footer{
 
 /******* MEDIA QUERY ********/
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 360px){
     .wrapper{
 		min-height: calc(100vh - 55px);
     }
 
-    .paint-text{
-        font-size: 1.4em;
-        line-height: 1.3em;
-    }
-
-    
 
 }
 
