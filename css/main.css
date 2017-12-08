@@ -69,13 +69,21 @@ a:hover{
     margin-bottom: 20px;
 }
 
+/*slogan holder*/
+.span-holder{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width:96%;
+    margin-left: 2%;
+    padding: 10px;
+    text-align: center;
+}
 .slogan{
     margin-left: 2%;
     text-align: center;
-    font-size: 2.3em;
+    font-size: 2.2em;
     font-family: 'Spectral SC', serif;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    margin: 30px auto;
 }
 
 /** home page content**/
@@ -96,7 +104,7 @@ a:hover{
     margin-top: 30px;
 
 }/* span container*/
-.span-holder{
+.span-holder2{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     width:96%;
@@ -144,10 +152,12 @@ footer{
 
 /******* MEDIA QUERY ********/
 
-@media screen and (min-width: 1330px){
+@media screen and (min-width: 14000px){
     .wrapper{
 		min-height: calc(100vh - 55px);
-	}
+    }
+    
+
 }
 
 
