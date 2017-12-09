@@ -15,13 +15,13 @@
 header{
     width: 100%;
     text-align: center;
+    background-color: hsl(240, 100%, 17%);
 
 }
 
 /* Company Name */
 h1{
     font-family: "spectral sc", sans-serif;
-    background-color: hsl(240, 100%, 17%);
     color: rgb(231, 146, 0);
     text-shadow: -1px -1px white;
     width: 100%;
