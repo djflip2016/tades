@@ -3,10 +3,13 @@
     box-sizing: border-box;
     margin: 0 auto;
 }
-
+body{
+    max-width: 100%;
+}
 #wrapper{
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 
 /**** HOME PAGE ***/
@@ -27,17 +30,22 @@ h1{
 
 /* Navigation */
 nav{
-    width: 100%;
+    display: flex;
     background-color: black;
 }
-li{
-   display: flex;
-   margin: 5px 50px;
-   font-size: 1.5em;
-   align-content: stretch;
+
+ul{
+    display: flex;
 }
 
-a{
+li{
+    margin: 5px 50px;
+    font-size: 1.5em;
+    align-content: left;
+}
+
+/*link effects*/
+a{  
     text-decoration: none;
     color: white;
 }
@@ -45,17 +53,17 @@ a{
 /* home image*/
 
 .home{
-    width: 100%;
+    max-width: 100%;
 }
 
 .home-photo{
     width: 100%;
-
 }
 
 /* Slogan */
 
 .span-holder{
+    max-width: 100%;
     display: flex;
     width: 98%;
     border-top: 2px solid black;
@@ -66,6 +74,7 @@ a{
 }
 
 .slogan{
+    max-width: 100%;
     font-family: "spectral sc", sans-serif;
     font-size: 2em;
 }
@@ -90,4 +99,8 @@ a{
     letter-spacing: .15em;
     line-height: 2em;
     font-style: oblique;
+}
+
+.orlando{
+    max-width: 100%;
 }
