@@ -104,7 +104,7 @@ a{
     font-size: 1.3em;
     width: 40%;
     letter-spacing: .15em;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 /* 5 out of 5 span */
@@ -153,8 +153,8 @@ a{
 /* footer */
 
 footer{
-    display: flex;
-    align-items: right;
+    position: relative;
+    bottom:0;
     margin-top: 20px;
     background: gray;
     color: black;
