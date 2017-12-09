@@ -31,9 +31,10 @@ nav{
     background-color: black;
 }
 li{
-   display: inline-block;
+   display: flex;
    margin: 5px 50px;
    font-size: 1.5em;
+   align-content: stretch;
 }
 
 a{
