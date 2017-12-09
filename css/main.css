@@ -154,6 +154,14 @@ a{
     box-shadow: -5px 5px lightgray;
 }
 
+
+.content3{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 320px;
+}
+
+
 /* footer */
 
 footer{
