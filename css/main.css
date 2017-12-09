@@ -1,166 +1,93 @@
+/* All Effect */
 *{
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
-body{
-    max-width: 100%;
-    margin:0 auto;
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.wrapper{
-    height: calc(100vh-89px);
-}
+/**** HOME PAGE ***/
 
-/***** HEADER *****/
-
-/*HEADER BODY*/
+/* Heading Holder */
 header{
-    border: 1px solid silver;
-    background: rgb(0, 0, 68);
+    width: 100%;
     text-align: center;
+
 }
 
-h1{ 
-    margin-left: 15px;
-    font-size: 3em;
-    letter-spacing: .2em;
-    font-family: 'Spectral SC', serif;    
-    color: orange;
-    text-shadow: -2px 0px silver;
+/* Company Name */
+h1{
+    font-family: "spectral sc", sans-serif;
+    background-color: hsl(240, 100%, 17%);
+    color: rgb(231, 146, 0);
+    text-shadow: -1px -1px white;
+    width: 100%;
 }
 
-/***** NAVIGATION *****/
-
-#nav-holder{
-    border: 1px solid white;
+/* Navigation */
+nav{
     background-color: black;
 }
-
-#nav-content{
-    margin:0 auto;
-    text-align: center;
-    padding:3px;
-}
-
-#nav-content li{
-    margin: 0 1.5em;
-    text-align: center;
-    font-size: 1.7em;
-    display: inline-block;
-    color: white;
-
+li{
+   display: inline-block;
+   margin: 5px 50px;
+   font-size: 1.5em;
 }
 
 a{
-    list-style-type: none;
-    color:white;
     text-decoration: none;
+    color: white;
 }
 
-a:hover{
-    color: orange;
-}
-
-/***** home page image ****/
+/* home image*/
 
 .home{
     width: 100%;
-    height:600px;
-    margin-bottom: 20px;
 }
 
-/*slogan holder*/
+.home-photo{
+    width: 100%;
+
+}
+
+/* Slogan */
+
 .span-holder{
+    display: flex;
+    width: 98%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    width:96%;
-    margin-left: 2%;
-    padding: 10px;
     text-align: center;
-}
-.slogan{
-    margin-left: 2%;
-    text-align: center;
-    font-size: 2.2em;
-    font-family: 'Spectral SC', serif;
-    margin: 30px auto;
+    justify-content: center;
+    margin: 10px auto;
 }
 
-/** home page content**/
+.slogan{
+    font-family: "spectral sc", sans-serif;
+    font-size: 2em;
+}
+
+/* paint can column */
+
+.content1{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 320px;
+}
 
 .paint{
-    margin-top: 30px;
-    margin-left: 2%;
-    margin-right: 0;
-    width: 48%;
-    margin-bottom: 30px;
+    margin: 20px 20px;
+    width: 40%;
 }
 
 .paint-text{
-    float: right;
-    font-size: 1.6em;
-    margin-right: 3%;
-    line-height: 1.5em;
-    margin-top: 30px;
-
-}/* span container*/
-.span-holder2{
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    width:96%;
-    margin-left: 2%;
-    padding: 10px;
-    text-align: center;
+    margin: 20px 20px 20px 50px;
+    font-size: 1.3em;
+    width: 40%;
+    letter-spacing: .15em;
+    line-height: 2em;
+    font-style: oblique;
 }
-
-.slogan2{
-    letter-spacing: .2em;
-    margin-left: 2%;
-    text-align: center;
-    font-size: 2.2em;
-    font-family: 'Spectral SC', serif;
-    margin: 30px auto;
-}
-
-.orlando{
-    float: right;
-    margin-top: 30px;
-    margin-right: 2%;
-    width: 48%;
-}
-
-.orlando-text{
-    float: left;
-    font-size: 1.6em;
-    margin-left: 3%;
-    line-height: 1.5em;
-    margin-top: 50px;
-}
-
-
-/** footer**/
-
-footer{
-    clear:both;
-    margin-top: 20px;
-    background-color: gray;
-    width: 100%;
-    position: absolute;
-    bottom:0;
-    height:80px;
-}
-
-/******* MEDIA QUERY ********/
-
-@media screen and (min-width: 360px){
-    .wrapper{
-		min-height: calc(100vh - 55px);
-    }
-
-
-}
-
-
-
-
-
