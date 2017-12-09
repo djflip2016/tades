@@ -154,11 +154,51 @@ a{
     box-shadow: -5px 5px lightgray;
 }
 
+/* 5 out of 5 span */
+
+.span-holder3{
+    max-width: 100%;
+    display: flex;
+    width: 96%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.slogan3{
+    max-width: 100%;
+    font-family: "spectral sc", sans-serif;
+    font-size: 2em;
+    margin: 20px auto;
+    text-shadow: 2px 2px lightgray;
+}
+
+/* city photo column */
+
 
 .content3{
     display: flex;
     flex-wrap: nowrap;
     height: 320px;
+}
+
+.bluehouse-text{
+    display: flex;
+    order: 2;
+    margin: 20px 20px 20px 50px;
+    font-size: 1.3em;
+    width: 40%;
+    letter-spacing: .15em;
+    line-height: 1.2em;
+}
+
+.bluehouse{
+    display: flex;
+    order: 1;
+    width: 45%;
+    box-shadow: 5px 5px lightgray;
 }
 
 
