@@ -14,6 +14,7 @@ body{
     flex-wrap: wrap;
     max-width: 100%;
     flex: 1 0 auto;
+    width: 100%;
 }
 
 /**** HOME PAGE ***/
@@ -199,6 +200,7 @@ a{
     order: 1;
     width: 45%;
     box-shadow: 5px 5px lightgray;
+    margin-bottom: 15px;
 }
 
 
@@ -206,7 +208,6 @@ a{
 
 footer{
     width: 100%;
-    margin-top: 20px;
     background: gray;
     color: black;
     height: 50px;
