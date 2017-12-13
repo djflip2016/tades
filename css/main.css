@@ -17,13 +17,14 @@ body{
     width: 100%;
 }
 
-/**** HOME PAGE ***/
+/********************************** HOME PAGE ********************************/
 
 /* Heading Holder */
 header{
     width: 100%;
     text-align: center;
     background-color: hsl(240, 100%, 17%);
+    max-height: 150px;
 }
 
 /* Company Name */
@@ -212,6 +213,8 @@ footer{
     color: black;
     height: 50px;
 }
+/*******************************ABOUT PAGE*************************************/
+
 
 
 
