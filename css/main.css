@@ -175,11 +175,13 @@ footer{
 }
 /*******************************ABOUT PAGE*************************************/
 
+/**page content holder**/
 .about-holder{
   height: 100%;
   width: 100%;
 }
 
+/**page Span Holer**/
 .span-about{
     max-width: 100%;
     display: flex;
@@ -191,6 +193,7 @@ footer{
     margin: 10px auto;
 }
 
+/** Span title **/
 .slogan-about{
     display: flex;
     font-family: "spectral sc", sans-serif;
@@ -201,6 +204,7 @@ footer{
     letter-spacing: .2em;
 }
 
+/** company background content**/
 .story{
     display: inline-flex;
     flex-direction: column;
@@ -215,12 +219,14 @@ footer{
 
 /********************************SERVICES******************************************/
 
+/**page content holder**/
 .services-holder{
     height: 100%;
     width: 100%;
-  }
+}
   
-    .span-services{
+ /**page title holder**/ 
+.span-services{
       max-width: 100%;
       display: flex;
       width: 96%;
@@ -229,9 +235,10 @@ footer{
       text-align: center;
       justify-content: center;
       margin: 10px auto;
-  }
-  
-  .slogan-services{
+}
+
+  /**span title**/
+.slogan-services{
       display: flex;
       font-family: "spectral sc", sans-serif;
       font-size: 2.3em;
@@ -239,9 +246,10 @@ footer{
       margin: 10px auto;
       text-shadow: 2px 2px lightgray;
       letter-spacing: .2em;
-  }
+}
 
-  .opener{
+  /** top page content**/
+.opener{
     display: flex;
     order: 2;
     margin: 20px 20px 20px 50px;
@@ -251,6 +259,7 @@ footer{
     line-height: 1.2em;
 }
 
+/** flex box effect for contents **/
 .items{
     display: flex;
     flex-direction: column;
@@ -258,11 +267,13 @@ footer{
 
 /***********************************Contact*******************************/
 
+/** page content holder**/
 .content-holder{
     height: 100%;
     width: 100%;
-  }
+}
 
+/** span holder **/
 .span-contact{
     max-width: 100%;
     display: flex;
@@ -274,6 +285,7 @@ footer{
     margin: 10px auto;
 }
 
+/** span title **/
 .contact-header{
     display: flex;
     font-family: "spectral sc", sans-serif;
@@ -284,6 +296,7 @@ footer{
     letter-spacing: .2em;
 }
 
+/**mobile link positioning **/
 .phone{
     margin-top: 5%;
     margin-bottom: 100px;    
