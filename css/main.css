@@ -256,6 +256,40 @@ footer{
     flex-direction: column;
 }
 
+/***********************************Contact*******************************/
+
+.content-holder{
+    height: 100%;
+    width: 100%;
+  }
+
+.span-contact{
+    max-width: 100%;
+    display: flex;
+    width: 96%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.contact-header{
+    display: flex;
+    font-family: "spectral sc", sans-serif;
+    font-size: 2.3em;
+    line-height: 1.5em;
+    margin: 10px auto;
+    text-shadow: 2px 2px lightgray;
+    letter-spacing: .2em;
+}
+
+.phone{
+    margin-top: 5%;
+    margin-bottom: 100px;
+
+    
+}
 
   
 
