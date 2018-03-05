@@ -103,8 +103,7 @@ a{
 
 /*paint can image*/
 .paint{
-    height:300px;
-    width: 350px;
+    width: 45%
     box-shadow: 5px 5px lightgray;
 }
 
