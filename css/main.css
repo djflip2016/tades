@@ -312,6 +312,18 @@ footer{
     width: 400px;
 }
 
+/** Media View Ports **/
+
+@media (min-width: 500px){
+    .home-photo{
+        height: 500px;
+        width: 500px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
   
 
   
