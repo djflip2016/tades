@@ -298,18 +298,18 @@ footer{
 
 /**mobile link positioning **/
 .phone{
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom: 100px;    
 }
 
 .phone{
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
 }
 
 .email{
-    height:350px;
-    width: 350px;
+    height:400px;
+    width: 400px;
 }
 
   
