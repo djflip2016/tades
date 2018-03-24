@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     max-width: 100%;
     width: 100%;
+    background-color:white;
 }
 #wrapper{
     display: flex;
@@ -16,6 +17,7 @@ body{
     max-width: 100%;
     flex: 1 0 auto;
     width: 100%;
+    background-color: white;
 }
 
 /********************************** HOME PAGE ********************************/
@@ -33,8 +35,6 @@ h1{
     font-family: "spectral sc", sans-serif;
     color: rgb(231, 146, 0);
     text-shadow: -1px -1px white;
-    line-height: 2em;
-    letter-spacing: .3em;
     margin: 20px auto;
 }
 
@@ -96,74 +96,76 @@ a{
 /* paint can column */
 
 .content1{
-    display: flex;
-    flex-wrap: nowrap;
-    height: 320px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 350px;
 }
 
 /*paint can image*/
 .paint{
-    width: 45%
+    width: 95%;
+    height: 200px;
     box-shadow: 5px 5px lightgray;
+    flex-direction: row;
 }
 
 /*text next to paint image*/
 .paint-text{
-    margin: 20px 20px 20px 50px;
     font-size: 1.3em;
-    width: 40%;
-    letter-spacing: .15em;
-    line-height: 1.5em;
+    width: 95%;
+    letter-spacing: .1em;
+    line-height: 1em;
+    flex-direction: row;
 }
 
 
 /* city photo column */
 .content2{
-    display: flex;
-    flex-wrap: nowrap;
-    height: 320px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 400px;
 }
 
 /*text next to orlando photo*/
 .orlando-text{
-    margin: 20px 20px 20px 50px;
     font-size: 1.3em;
-    width: 40%;
-    letter-spacing: .15em;
-    line-height: 1.5em;
+    width: 95%;
+    letter-spacing: .1em;
+    line-height: 1em;
+    flex-direction: row;
 }
 
 /*orlando photo*/
 .orlando{
-    width: 45%;
-    box-shadow: -5px 5px lightgray;
+    width: 95%;
+    height: 200px;
+    box-shadow: 5px 5px lightgray;
+    flex-direction: row;
 }
 
 /* city photo column */
 .content3{
-    display: flex;
-    flex-wrap: nowrap;
-    height: 320px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 425px;
 }
 
 /*Text next to blue house photo*/
 .bluehouse-text{
-    display: flex;
-    order: 2;
-    margin: 20px 20px 20px 50px;
     font-size: 1.3em;
-    width: 40%;
-    letter-spacing: .15em;
-    line-height: 1.2em;
+    width: 95%;
+    letter-spacing: .1em;
+    line-height: 1em;
+    flex-direction: row;
+   
 }
 
 /*blue house photo*/
 .bluehouse{
-    display: flex;
-    order: 1;
-    width: 45%;
+    width: 95%;
+    height: 200px;
     box-shadow: 5px 5px lightgray;
-    margin-bottom: 15px;
+    flex-direction: row;
 }
 
 /****************************** footer*****************************************/
@@ -311,6 +313,104 @@ footer{
     height:400px;
     width: 400px;
 }
+
+/******************************************************** media querys ****************************************************/
+
+
+
+@media screen and (min-width: 600px) {
+   
+  /***Paint can area**/ 
+    .content1{
+        display: flex;
+        flex-wrap: nowrap;
+        height: 300px;
+    }
+    
+    /*paint can image*/
+    .paint{
+        width: 45%;
+        height: 300px;
+        box-shadow: 5px 5px lightgray;
+        flex-direction: column;
+        margin: 0px 7px;
+    }
+    
+    /*text next to paint image*/
+    .paint-text{
+        font-size: 1.3em;
+        width: 95%;
+        letter-spacing: .1em;
+        line-height: 1em;
+        flex-direction: column;
+    }
+
+    /* city photo column */
+    .content2{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    }
+
+    /*text next to orlando photo*/
+    .orlando-text{
+    font-size: 1.3em;
+    width: 95%;
+    letter-spacing: .1em;
+    line-height: 1em;
+    flex-direction: column;
+    }
+
+    /*orlando photo*/
+    .orlando{
+    width: 45%;
+    height: 300px;
+    box-shadow: 5px 5px lightgray;
+    flex-direction: column;
+    margin: 0px 7px;
+    }
+
+    /* city photo column */
+    .content3{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    }
+
+    /*Text next to blue house photo*/
+    .bluehouse-text{
+    font-size: 1.3em;
+    width: 95%;
+    letter-spacing: .1em;
+    line-height: 1em;
+    flex-direction: column;
+    order: 2;
+    }
+
+    /*blue house photo*/
+    .bluehouse{
+    width: 45%;
+    height: 300px;
+    box-shadow: 5px 5px lightgray;
+    flex-direction: column;
+    margin: 0px 7px;
+    order: 1;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1180px) {
+    #wrapper{
+        max-width: 60%;
+    }
+
+    body{
+        background-color: lightgray;
+    }
+}
+
 
 
 
