@@ -278,7 +278,7 @@ footer{
 /**mobile link positioning **/
 
 .content-holder{
-    height: 1800px;
+    height: 1000px;
     justify-content: center;
 }
 
@@ -386,6 +386,10 @@ footer{
     .conspan1{
         visibility: hidden;
     }
+
+    .content-holder{
+        height: 1500px;
+    }
     
 
 
@@ -436,7 +440,13 @@ footer{
         visibility: visible;
     }
 
+    .notice{
+        visibility: hidden;
+    }
 
+    .content-holder{
+        height: 100px;
+    }
   }  
 
 
