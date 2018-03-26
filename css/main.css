@@ -366,13 +366,16 @@ footer{
     order: 1;
     }
 
+    /* ernesto photo */
     .owner{
         width: 30%;
         margin-left: 35%;
     }
 
+    /****holder for paragraph on about page**/
     .para1{
         width: 90%;
+        padding: 10px 10px;
     }
 
     .holder{
