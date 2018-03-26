@@ -289,25 +289,29 @@ footer{
     justify-content: center;
 }
 
+/* HOLDER FOR CONTACT INFO*/
 .items1{
     height: 700px;
     display: flex;
     flex-direction: column;
 }
 
+/*MOBILE ICONS*/
 .phone, .email {
     width: 40%;
     margin-left: 30%; 
 }
 
+/*EMAIL ICON*/
 .email{
     margin-bottom: 100px;
 }
 
+/*SPAN TITLE FOR ICONS*/
 .conspan{
     font-size: 1.3em;           
 }
-
+/*SPAN INFO FOR DESKTOP APPLICATION*/
 .conspan1{
     font-size: 1.3em;
     visibility: hidden;  
@@ -320,6 +324,8 @@ footer{
 
 
 @media screen and (min-width: 600px) {
+
+    
    /*******HOME PAGE******/
 
   /***Paint can area**/ 
@@ -371,73 +377,88 @@ footer{
     order: 1;
     }
 
+    /*************ABOUT PAGE DESKTOP***************/
+    
+    /**about page size**/
+    .about-holder{
+        height:1100px;
+    }
+
     /* ernesto photo */
     .owner{
         width: 30%;
         margin-left: 35%;
     }
 
-    /****holder for paragraph on about page**/
-
+    /**Bio of ernesto**/
     .para1{
         width: 90%;
         padding: 10px 10px;
     }
 
-    .about-holder{
-        height:1100px;
-    }
-
+    /**size for holder of content on services*/
     .holder{
         height: 700;
     }
 
+    /****************contact page desktop*******************/
+
+
+     /*content page size on contact page*/
+     .content-holder{
+        height: 1500px;
+    }
+
+    /*icon sizes for contact page*/
     .phone, .email{
         width: 30%;
         margin-left: 35%;
     }
     
+    /*text for contact info*/
     .conspan{
         font-size: 1.3em;           
     }
-
+    /* desktop view for contact info*/
     .conspan1{
         visibility: hidden;
-    }
+    }  
 
-    .content-holder{
-        height: 1500px;
-    }
-    
-
-
-
-    /*******ABOUT PAGE ******/
-    
-
+/******************************************DESKTOP*****************************************************/
 
 @media screen and (min-width: 1180px) {
+
+    /*DESKTOP BODY RESIZE*/
     #wrapper{
         max-width: 80%;
     }
 
+    /*DESKTOP BODY CHANGE*/
     body{
         background-color: rgb(246, 244, 229);
     }
 
+    /***HOME PAGE***/
+
+    /*HOME PAGE PHOTO DESKTOP*/
     .paint, .orlando, .bluehouse{
         max-width: 500px;
     }
 
+    /*HOME PAGE TEXT DESKTOP*/
     .paint-text, .orlando-text, .bluehouse-text{
         line-height: 2.3em;
     }
 
+    /********* ABOUT US *******/
+
+    /*ERNESTO PHOTO DESKTOP*/
     .owner{
         max-width: 25%;
         margin-left: 37%;
     }
 
+    /*ERNESTIO BIO DESKTOP*/
     .para1{
         display: inline-flex;
         flex-direction: column;
@@ -449,26 +470,35 @@ footer{
         line-height: 1.8em;
     }
 
+    /*ABOUT PAGE HOLDER RESIZE*/
+    .about-holder{
+            height: 1500px;
+     }
+
+
+/************* CONTACT PAGE***********/
+
+    /*ICON OFF EFFECT FOR DESKTOP*/
     .conspan, .phone, .email{
         visibility: hidden;
     }
 
+    /*SPAN TURN ON FOR CONTACT INFO ON DESKTOP*/
     .conspan1{
         margin-bottom: -30%;
         visibility: visible;
     }
 
+    /* FULL SCREEN NOTICE TURNED OFF*/
     .notice{
         visibility: hidden;
     }
 
+    /*CONTENT HOLDER FOR CONTACT PAGE RESIZE*/
     .content-holder{
         height: 100px;
-    }
-   
-    .about-holder{
-        height: 1500px;
-    }
+    } 
+
 }  
 
 
