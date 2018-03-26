@@ -183,6 +183,8 @@ footer{
      position: center;
  }
 
+
+
 /** company background content**/
 .para1{
     display: inline-flex;
@@ -192,7 +194,7 @@ footer{
     font-size: 1.7em;
     width: 80%;
     letter-spacing: .13em;
-    line-height: 1em;
+    line-height: 0.9em;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -202,7 +204,6 @@ footer{
 
 /**page content holder**/
 .services-holder{
-    height: 1800px;
     width: 100%;
 }
   
@@ -227,6 +228,10 @@ footer{
       margin: 10px auto;
       text-shadow: 2px 2px lightgray;
       letter-spacing: .2em;
+}
+
+.holder{
+    height: 800px;
 }
 
   /** top page content**/
@@ -373,13 +378,18 @@ footer{
     }
 
     /****holder for paragraph on about page**/
+
     .para1{
         width: 90%;
         padding: 10px 10px;
     }
 
+    .about-holder{
+        height:1100px;
+    }
+
     .holder{
-        height: 1800
+        height: 700;
     }
 
     .phone, .email{
@@ -455,7 +465,12 @@ footer{
     .content-holder{
         height: 100px;
     }
-  }  
+   
+    .about-holder{
+        height: 1500px;
+    }
+}  
+
 
 
 
