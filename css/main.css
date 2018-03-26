@@ -234,8 +234,7 @@ footer{
     margin: 20px 20px 20px 50px;
     font-size: 1.35em;
     width: 90%;
-    letter-spacing: .15em;
-    line-height: 1.2em;
+    letter-spacing: .1em;
 }
 
 /** flex box effect for contents **/
@@ -243,6 +242,7 @@ footer{
     display: flex;
     flex-direction: column;
 }
+
 
 /***********************************Contact*******************************/
 
@@ -276,20 +276,37 @@ footer{
 }
 
 /**mobile link positioning **/
-.phone{
-    margin-top: 15%;
-    margin-bottom: 100px;    
+
+.content-holder{
+    height: 1800px;
+    justify-content: center;
 }
 
-.phone{
-    height: 400px;
-    width: 400px;
+.items1{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone, .email {
+    width: 40%;
+    margin-left: 30%; 
 }
 
 .email{
-    height:400px;
-    width: 400px;
+    margin-bottom: 100px;
 }
+
+.conspan{
+    font-size: 1.3em;           
+}
+
+.conspan1{
+    font-size: 1.3em;
+    visibility: hidden;  
+}
+
+
 
 /******************************************************** media querys ****************************************************/
 
@@ -352,14 +369,29 @@ footer{
         max-height: 1000px;
         margin-left: 80px;
     }
+
+    .holder{
+        height: 1800
+    }
+
+    .phone, .email{
+        width: 30%;
+        margin-left: 35%;
+    }
+    
+    .conspan{
+        font-size: 1.3em;           
+    }
+
+    .conspan1{
+        visibility: hidden;
+    }
     
 
 
 
     /*******ABOUT PAGE ******/
-
-
-
+    
 
 
 @media screen and (min-width: 1180px) {
@@ -393,6 +425,16 @@ footer{
         width: 90%;
         letter-spacing: .13em;
         line-height: 1.8em;
+    }
+
+    .conspan, .phone, .email{
+        visibility: hidden;
+    }
+
+    .conspan1{
+        margin-bottom: -30%;
+        visibility: visible;
+    }
 
 
   }  
